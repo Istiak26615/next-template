@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react';
+import ToggleButton from '../ToggleButton/ToggleButton';
  
 function Navbar(props) {
 console.log(props)
@@ -75,6 +76,7 @@ const toggleDrawer = () => {
       </ul>
       </div>
       </div>
+      <ToggleButton/>
       
     </div>
   </nav>

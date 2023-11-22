@@ -1,9 +1,14 @@
+'use client'
+import { useThemeContext } from '@/context/theme';
 import Link from 'next/link'
- 
-function About() {
-  return (
-    <div>about</div>
-  )
+
+export default function About() {
+  const { color, setColor} = useThemeContext();
+  console.log("color inn abt", color)
+  return (<>
+    <h1 style={{'color': color}}>Main page </h1>
+    <p>Current color: {color}</p>
+    <button onClick={()=> setColor('blue')}>Set color to blue</button>
+    <p><Link href="contact">Goto conatct page</Link></p>
+  </>)
 }
- 
-export default About
