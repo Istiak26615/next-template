@@ -1,4 +1,4 @@
-// File: /Users/istiakshamimshishir/Desktop/next-template/src/app/page.js
+// File: /Users/istiakshamimshishir/Desktop/tal-projects/next-with-redux/next-template/src/app/page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
